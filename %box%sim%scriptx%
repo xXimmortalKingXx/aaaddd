@@ -1,0 +1,6 @@
+if game.Placeid == 8594654177 then
+ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+ local Window = Library.CreateLib("TITLE", "Synapse")
+ local Main = Window:NewTab("Main")
+ local Player = Window:NewTab("Player")
+end
